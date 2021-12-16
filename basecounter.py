@@ -15,7 +15,7 @@ print(O+"	   |_____] |     | ______| |______")
 print(R+"_______  _____  _     _ __   _ _______ _______  ______")
 print(R+"|       |     | |     | | \  |    |    |______ |_____/")
 print(R+"|_____  |_____| |_____| |  \_|    |    |______ |    \_")
-print(B+"V 0.9.1, C. Peralta 2016-2021, GNU Affero General Public License v3.0\n"+W)
+print(B+"V 0.9.1, C. Peraltn2021, GNU Affero General Public License v3.0\n"+W)
 
 
 re_run = 'Y' # continuador
