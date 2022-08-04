@@ -7,3 +7,11 @@
 - __promoters_from_gtf.R__ : R script to extract promoters from GTF annotation files 
   - Before execution please modify __Global variables__ as your convinence
   - It can be executed via __Rscript__ or __Rstudio__
+- __fastq_top_and_bottom.sh__ Bash script to split in two equal size fastq files, it takes a decompressed fastq file as an argument and writes top half into file and bottom half into another file.
+
+`$ ./fastq_top_and_bottom.sh [[your_file.fastq]]`
+
+- __fastq_splitter.sh__ Similarly to previous script it create two fastq files of equal size from an input, this script places every other read into a different output files.
+
+`$ ./fastq_splitter.sh [[your_file.fastq]]`
+___
