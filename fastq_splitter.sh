@@ -3,6 +3,7 @@
 # Splits fastq file into two equally sized fastq, placing every other read into a different output file
 # Authors: Carlos Peralta, Josué Cerecedo
 # UBMI-IFC 2022
+# Eclipse Public License 2.0
 
 count=0
 out=0
