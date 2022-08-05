@@ -3,6 +3,7 @@
 # Splits fastq file into two equally sized fastq, placing top half into one output file and bottom half into another.
 # Authors: Carlos Peralta, Josué Cerecedo
 # UBMI-IFC 2022
+# Eclipse Public License 2.0
 
 
 out1=$(echo $1 | sed -r 's/\..*/_mitad1\.fq/')
