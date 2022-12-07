@@ -14,4 +14,8 @@
 - __fastq_splitter.sh__ Similarly to previous script it create two fastq files of equal size from an input, this script places every other read into a different output files.
 
 `$ ./fastq_splitter.sh [[your_file.fastq]]`
+
+- __gtf2bed.sh__ : Bash script that takes as an argument the path for a GTF file and returns all the genomic coordinates in such file in BED format, the Identifier field is **gene_id**
+`$ ./gtf2bed.sh [[input GTF]] > [[output BED file]]`
+
 ___
