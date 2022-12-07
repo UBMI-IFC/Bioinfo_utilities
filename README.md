@@ -16,6 +16,7 @@
 `$ ./fastq_splitter.sh [[your_file.fastq]]`
 
 - __gtf2bed.sh__ : Bash script that takes as an argument the path for a GTF file and returns all the genomic coordinates in such file in BED format, the Identifier field is **gene_id**
+
 `$ ./gtf2bed.sh [[input GTF]] > [[output BED file]]`
 
 ___
