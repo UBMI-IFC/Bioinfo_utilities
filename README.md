@@ -19,4 +19,9 @@
 
 `$ ./gtf2bed.sh [[input GTF]] > [[output BED file]]`
 
+  __bowtie2_report_parser.sh__ : takes as an argument a path to a directory that contains the bowtie2 aligment scores (must be saved via redirection of stderr to a file during bowtie2 execution, example: `bowtie2 [[rest of bowtie2 command]] 2> given_sample_bowtie_report.txt`), currently it parses __ALL__ files into a directory, so in order to work properly; the path given as argument __must only contain the report files__.  The script returns a comma separated table of most of the numeric values contained on the reports. 
+
+`$ ./bowtie2_report_parser.sh [[path/to/report/directory]] > [[output_table.csv]] `
+
+
 ___
